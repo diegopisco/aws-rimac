@@ -4,6 +4,12 @@ info:
   version: '1.0'
 servers:
   - url: 'https://rimac-aws.xyz'
-paths: {}
+paths:
+  /todo:
+    get:
+      summary: todo
+      tags: []
+      responses: {}
+      operationId: get-todo
 components:
   schemas: {}
